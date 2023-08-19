@@ -8,7 +8,7 @@ import { fetchFunction } from "@/utils/api";
 import { useState, useEffect } from "react";
 
 // const page = ({ category, products, slug }) => {
-const page = () => {
+const Page = () => {
   const [data, setData] = useState([]);
 
   const params = useParams();
@@ -67,7 +67,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 // again this is how it should be done but i just cant figure out why this is not working I tried react dev tools also but props doesnot show up there no matter how much i tried so i had to find a work around and for that i fetched data the old way.
 
