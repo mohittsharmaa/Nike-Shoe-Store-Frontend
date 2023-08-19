@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*::selection {
+  background: rgb(50, 49, 49);
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.hover-icon .icon {
+  transition-duration: 100ms; /* Optional: Set the duration of the rotation animation */
+}
+
+/* Custom CSS class for icon rotation when the button is hovered */
+.hover-icon:hover .icon {
+  transform: rotate(45deg);
+}
