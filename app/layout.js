@@ -1,7 +1,7 @@
 import "./globals.css";
 // import { Inter } from "next/font/google";
 import { Nunito } from "next/font/google";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 //redux
 import { Providers } from "@/app/Redux/provider";
