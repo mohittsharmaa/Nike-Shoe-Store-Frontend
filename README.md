@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This Project is hosted live, want to check it out? 👉 (https://nike-shoe-store-frontend-ten.vercel.app)
+
+⚠⚠⚠ PS: All the data in the project was stored on an online database with a free plan but the downside is all that data will get deleted after 3 months. So I prepared a video of the project when all the data is still present the link to that is below
+
+👉 (https://drive.google.com/file/d/1HHdJNMYR9dUkAAtqt5vEOFX1M2Zx7POY/view?t=7s)
+
+
 ## Getting Started
 
 First, run the development server:
